@@ -1,0 +1,36 @@
+﻿@model manage_coffee_shop_web.ViewModels.RegisterViewModel
+
+<h2>Đăng ký</h2>
+<form asp-action="Register" method="post">
+    <div>
+        <label>Họ và tên</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Số điện thoại</label>
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <div>
+        <label>Địa chỉ</label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+    </div>
+    <div>
+        <label>Mật khẩu</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label>Xác nhận mật khẩu</label>
+        <input asp-for="ConfirmPassword" type="password" />
+        <span asp-validation-for="ConfirmPassword"></span>
+    </div>
+    <button type="submit">Đăng ký</button>
+</form>

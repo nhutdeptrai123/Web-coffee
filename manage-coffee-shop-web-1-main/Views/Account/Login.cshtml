@@ -1,0 +1,16 @@
+﻿@model manage_coffee_shop_web.ViewModels.LoginViewModel
+
+<h2>Đăng nhập</h2>
+<form asp-action="Login" method="post">
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Mật khẩu</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <button type="submit">Đăng nhập</button>
+</form>

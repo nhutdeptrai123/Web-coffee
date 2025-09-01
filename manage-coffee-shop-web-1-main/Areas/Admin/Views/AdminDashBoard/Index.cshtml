@@ -1,0 +1,40 @@
+﻿@model manage_coffee_shop_web.Areas.Admin.Models.AdminDashboardViewModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Dashboard Content -->
+        <div class="col-md-9">
+            <h2>@ViewData["Title"]</h2>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">Dashboard Overview</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Total Banners: @Model.TotalBanners</li>
+                        <li class="list-group-item">Total Categories: @Model.TotalCategories</li>
+                        <li class="list-group-item">Total Products: @Model.TotalProducts</li>
+                        <li class="list-group-item">Total Users: @Model.TotalUsers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Right Side Navigation -->
+        <div class="col-md-3">
+            <div class="card mt-3 sticky-top" style="top: 20px;">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Navigation</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a asp-area="Admin" asp-controller="Banner" asp-action="Index">Manage Banners</a></li>
+                        <li class="list-group-item"><a asp-area="Admin" asp-controller="Category" asp-action="Index">Manage Categories</a></li>
+                        <li class="list-group-item"><a asp-area="Admin" asp-controller="Coupon" asp-action="Index">Manage Coupons</a></li>
+                        <li class="list-group-item"><a asp-area="Admin" asp-controller="Product" asp-action="Index">Manage Products</a></li>
+                        <li class="list-group-item"><a asp-area="Admin" asp-controller="User" asp-action="Index">Manage Users</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

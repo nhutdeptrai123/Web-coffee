@@ -1,0 +1,60 @@
+@model IEnumerable<manage_coffee_shop_web.Models.Product>
+
+@{
+    ViewData["Title"] = "Product Management";
+}
+
+<h1>Product Management</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Created Date</th>
+            <th>Views</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int index = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@index</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="@item.Image" alt="@item.Name" style="width: 100px; height: auto;" />
+                    }
+                </td>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>@item.Category?.Name</td>
+                <td>@item.Description</td>
+                <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
+                <td>@item.ViewCount</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Sửa</a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline"
+                          onsubmit="return confirm('Bạn có muốn xóa sản phẩm này không?');">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>

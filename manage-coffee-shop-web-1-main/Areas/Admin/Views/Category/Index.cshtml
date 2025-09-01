@@ -1,0 +1,38 @@
+﻿@model IEnumerable<manage_coffee_shop_web.Models.Category>
+
+<h2>Danh mục sản phẩm</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<p>
+    <a asp-area="Admin" asp-controller="Category" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tên danh mục</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Select((cat, index) => new { cat, index }))
+        {
+            <tr>
+                <td>@(item.index + 1)</td>
+                <td>@item.cat.Name</td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Category" asp-action="Edit" asp-route-id="@item.cat.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-area="Admin" asp-controller="Category" asp-action="DeleteConfirmed" asp-route-id="@item.cat.Id" method="post" style="display:inline;"
+                          onsubmit="return confirm('Bạn có chắc chắn muốn xóa không?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

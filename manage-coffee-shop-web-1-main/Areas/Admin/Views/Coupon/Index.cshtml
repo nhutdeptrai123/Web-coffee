@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Quản lý Coupon";
+    var coupons = ViewBag.Coupons as IEnumerable<dynamic>;
+}
+
+<h2>Danh sách Coupon</h2>
+
+<p>
+    <a asp-area="Admin" asp-controller="Coupon" asp-action="Create" class="btn btn-primary">+ Thêm Coupon</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Mã giảm giá</th>
+            <th>% Giảm</th>
+            <th>Số tiền giảm</th>
+            <th>Ngày bắt đầu</th>
+            <th>Ngày kết thúc</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+            foreach (var item in coupons)
+            {
+                <tr>
+                    <td>@stt</td>
+                    <td>@item.Code</td>
+                    <td>@item.DiscountPercentage%</td>
+                    <td>@item.DiscountAmount</td>
+                    <td>@item.StartDate.ToString("dd/MM/yyyy")</td>
+                    <td>@item.EndDate.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Status</td>
+                    <td>
+                        <a asp-area="Admin" asp-controller="Coupon" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                        <form asp-area="Admin" asp-controller="Coupon" asp-action="DeleteConfirmed" asp-route-id="@item.Id" method="post" style="display:inline">
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?')">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+                stt++;
+            }
+        }
+    </tbody>
+</table>
