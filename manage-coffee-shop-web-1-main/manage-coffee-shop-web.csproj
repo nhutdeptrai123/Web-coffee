@@ -16,12 +16,12 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Views\Products\" />
     <Folder Include="Areas\Staff\Controllers\" />
     <Folder Include="Areas\Staff\Data\" />
     <Folder Include="Areas\Staff\Models\" />
     <Folder Include="Areas\Staff\Services\" />
     <Folder Include="Areas\Staff\Views\" />
-    <Folder Include="wwwroot\images\banners\" />
     <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 

@@ -2270,6 +2270,7 @@ E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\manage-coffee-shop-web.MvcApplicationPartsAssemblyInfo.cache
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\manage-coffee-shop-web.RazorAssemblyInfo.cache
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\manage-coffee-shop-web.RazorAssemblyInfo.cs
+E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\manage-coffee-shop-web.sourcelink.json
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\manage-coffee-shop-web-1-main\manage-coffee-shop-web-1-main\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

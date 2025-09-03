@@ -1,0 +1,44 @@
+﻿@* @model dynamic
+
+@{
+    ViewData["Title"] = "Sản phẩm";
+    Layout = "_Layout"; 
+}
+
+<section class="products" id="products" style="margin-top: 50px; padding-top: 20px;">
+    <div class="container">
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
+            <span>SẢN </span> PHẨM
+        </h1>
+        <div class="row">
+            <div class="col-md-3 filter-sidebar">
+                <h5>Lọc theo danh mục</h5>
+                <select class="form-select mb-3" id="categoryFilter">
+                    <option value="">Tất cả danh mục</option>
+                    @foreach (var category in ViewBag.Categories ?? Enumerable.Empty<dynamic>())
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-9">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    @foreach (var product in ViewBag.Products ?? Enumerable.Empty<dynamic>())
+                    {
+                        <div class="col">
+                            <div class="card product-card h-100">
+                                <img src="@product.Image" class="card-img-top" alt="@product.Name" loading="lazy" />
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.Name</h5>
+                                    <p class="card-text price">@product.Price</p>
+                                    <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-sm">Xem chi tiết</a>
+                                    <a href="#" class="btn btn-sm btn-success add-to-cart mt-2" data-id="@product.Id">Thêm vào giỏ</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section> *@

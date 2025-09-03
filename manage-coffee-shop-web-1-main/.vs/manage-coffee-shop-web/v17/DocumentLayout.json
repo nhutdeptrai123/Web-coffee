@@ -3,12 +3,192 @@
   "WorkspaceRootPath": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\services\\admindashboardservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\services\\admindashboardservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\models\\admindashboardmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\models\\admindashboardmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\admindashboardcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\admindashboardcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\banner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\banner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\banner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\banner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\banner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\banner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\service\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:service\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\payment\\paymentfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\payment\\paymentfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,32 +207,8 @@
       "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\views\\payment\\paymentfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:views\\payment\\paymentfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\service\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:service\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|e:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1EBD0AE4-53BC-40E5-9F4F-33B2FBD7F19B}|manage-coffee-shop-web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,8 +217,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 192,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 205,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,163 +230,380 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:27:08.798Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "AdminDashBoardModels.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Models\\AdminDashBoardModels.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Models\\AdminDashBoardModels.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Models\\AdminDashBoardModels.cs",
+              "RelativeToolTip": "Areas\\Admin\\Models\\AdminDashBoardModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:27:52.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:26:57.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T09:45:52.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:07:18.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T13:07:18.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwv2MAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:21:30.735Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Product.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Product.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Product.cshtml",
+              "RelativeToolTip": "Views\\Home\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T08:38:45.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:27:07.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T14:39:41.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:27:02.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsBAAAAAAAAAAAuwF0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:25:57.757Z",
+              "WhenOpened": "2025-09-01T13:25:57.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAG4CAAAAAAAAAAAqwH4CAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-01T14:06:59.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentSuccess.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentSuccess.cshtml",
-              "RelativeDocumentMoniker": "Views\\Payment\\PaymentSuccess.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentSuccess.cshtml",
-              "RelativeToolTip": "Views\\Payment\\PaymentSuccess.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:20:43.114Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "AdminDashBoardServices.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Services\\AdminDashBoardServices.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Services\\AdminDashBoardServices.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Services\\AdminDashBoardServices.cs",
+              "RelativeToolTip": "Areas\\Admin\\Services\\AdminDashBoardServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T12:16:29.982Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PaymentFailure.cshtml",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentFailure.cshtml",
-              "RelativeDocumentMoniker": "Views\\Payment\\PaymentFailure.cshtml",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentFailure.cshtml",
-              "RelativeToolTip": "Views\\Payment\\PaymentFailure.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:10:51.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-01T13:20:24.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T09:40:48.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "VnPayLibrary.cs",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Service\\VnPayLibrary.cs",
-              "RelativeDocumentMoniker": "Service\\VnPayLibrary.cs",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Service\\VnPayLibrary.cs",
-              "RelativeToolTip": "Service\\VnPayLibrary.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:22:51Z",
-              "EditorCaption": ""
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T08:48:40.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:42:28.036Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:36:40.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\Dashboard.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\Dashboard.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:54:44.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:00:33.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:54:42.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BannerController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BannerController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BannerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:54:40.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminDashBoardControllers.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\AdminDashBoardControllers.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\AdminDashBoardControllers.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\AdminDashBoardControllers.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\AdminDashBoardControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:54:38.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:04:03.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\AdminDashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\AdminDashBoard\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\AdminDashBoard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\AdminDashBoard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:39:39.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:40:36.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banner\\Edit.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Banner\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:50:50.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banner\\Create.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Banner\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Banner\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:50:53.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:50:46.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAuwOsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:00:14.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-02T13:04:20.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:04:58.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T13:04:58.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-01T13:03:07.483Z",
-              "EditorCaption": ""
+              "DocumentIndex": 30,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:21:30.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T12:16:51.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:11:15.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:05:14.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -238,13 +611,252 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-01T12:56:55.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T12:56:55.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T12:16:59.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CouponController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CouponController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:54:44.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Coupon\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Coupon\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:40:46.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:40:43.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:47:39.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Coupon\\Create.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Coupon\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:48:55.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T09:40:41.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T08:32:10.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T08:32:04.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Service\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "Service\\VnPayLibrary.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Service\\VnPayLibrary.cs",
+              "RelativeToolTip": "Service\\VnPayLibrary.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwFQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:22:51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:39:33.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:39:35.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAF0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:49:16.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentSuccess.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:20:43.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaymentFailure.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentFailure.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentFailure.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Payment\\PaymentFailure.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentFailure.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:20:24.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:26:57.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:27:08.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:27:07.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T13:27:02.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-01T13:03:07.483Z"
             }
           ]
         },
         {
-          "DockedWidth": 20,
+          "DockedWidth": 7,
           "SelectedChildIndex": -1,
           "Children": [
             {

@@ -1,27 +1,27 @@
 @model IEnumerable<manage_coffee_shop_web.Models.Product>
 
 @{
-    ViewData["Title"] = "Product Management";
+    ViewData["Title"] = "Quản Lý Thực Đơn";
 }
 
-<h1>Product Management</h1>
+<h1>Quản Lý Thực Đơn</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+    <a asp-action="Create" class="btn btn-primary">Thêm Thực Đơn Mới</a>
 </p>
 
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>#</th>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Category</th>
-            <th>Description</th>
-            <th>Created Date</th>
-            <th>Views</th>
-            <th>Actions</th>
+            <th>Ảnh</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Danh mục</th>
+            <th>Mô tả</th>
+            <th>Ngày tạo</th>
+            <th>Lượt xem</th>
+            <th>Thao tác</th>
         </tr>
     </thead>
     <tbody>
@@ -47,7 +47,7 @@
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Sửa</a>
                     <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline"
-                          onsubmit="return confirm('Bạn có muốn xóa sản phẩm này không?');">
+                          onsubmit="return confirm('Bạn có muốn xóa thực đơn này không?');">
                         @Html.AntiForgeryToken()
                         <input type="hidden" name="id" value="@item.Id" />
                         <button type="submit" class="btn btn-sm btn-danger">Xóa</button>

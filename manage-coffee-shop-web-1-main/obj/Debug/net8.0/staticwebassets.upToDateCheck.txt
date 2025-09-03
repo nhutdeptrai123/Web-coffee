@@ -1,20 +1,35 @@
 wwwroot\css\site.css
-wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\images\banners\.png
 wwwroot\images\banners\5c123349-f4f7-4dbb-ba22-b3ba3aaf33ef.jpg
 wwwroot\images\banners\b6252aa4-fef6-455f-b802-61a5dc22dd38.jpg
+wwwroot\images\banners\Ca Phe.jpg
+wwwroot\images\banners\coffee.jpg
 wwwroot\images\banners\d7efb501-3956-4cdc-86e1-e0e9c42da21e.jpg
 wwwroot\images\banners\default 1.jpg
 wwwroot\images\banners\default 3.jpg
 wwwroot\images\banners\default.jpg
 wwwroot\images\home\about-img.png
 wwwroot\images\home\home-img.jpg
+wwwroot\images\products\0f102427-69bc-45ed-ba1b-b3e19be77ba2.jpg
+wwwroot\images\products\49ece80d-9751-4b32-9536-b655ed43a51e.jpg
+wwwroot\images\products\4a03ec8c-2db2-4566-abd3-fd1d0e0d284c.jpg
+wwwroot\images\products\4ad21b38-03c7-4f14-9acc-e3e2ee80f2b2.jpg
 wwwroot\images\products\4f24d2fc-a17c-4d8c-b07c-4ce43b4b8eb1.jpg
 wwwroot\images\products\544903f1-4802-4636-9c7a-613189d41dd9.jpg
 wwwroot\images\products\5f884281-fdb0-4a18-a86f-e3b453a6af4a.jpg
 wwwroot\images\products\8c2de72c-c674-4b11-9615-9a03c56957fa.jpg
+wwwroot\images\products\americano.jpg
+wwwroot\images\products\bac xiu.jpg
+wwwroot\images\products\bf4f255f-22a8-4cc2-9ce7-a19be3031d7e.jpg
+wwwroot\images\products\ca phe muoi.jpg
+wwwroot\images\products\cb6d7a19-b52b-420f-8a5a-32fa4a15a630.jpg
+wwwroot\images\products\d34bc931-2815-4158-8761-7ab6ba9acc4b.jpg
+wwwroot\images\products\den.jpg
+wwwroot\images\products\dua.jpg
 wwwroot\images\products\eb02d3e2-144c-4784-bcf0-145e7bf69d09.jpg
+wwwroot\images\products\sua.jpg
+wwwroot\images\products\trung.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -73,3 +88,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\style.css

@@ -1,4 +1,4 @@
-﻿using manage_coffee_shop_web.Models;  // Đảm bảo file Order.cs tồn tại
+﻿/*using manage_coffee_shop_web.Models;  // Đảm bảo file Order.cs tồn tại
 using manage_coffee_shop_web.Services;  // Đảm bảo file VnPayLibrary.cs tồn tại
 using Microsoft.AspNetCore.Http;  // For HttpContext
 using Microsoft.AspNetCore.Mvc;
@@ -97,4 +97,4 @@ namespace manage_coffee_shop_web.Controllers {
             return HttpContext.Connection.RemoteIpAddress?.ToString() ?? "0.0.0.0";
         }
     }
-}
+}*/

@@ -1,147 +1,136 @@
 ﻿@model dynamic
 
 @{
-    ViewData["Title"] = "Home - manage_coffee_shop_web";
-    var bannerImagePath = ViewBag.BannerImagePath ?? "/images/banners/default.jpg"; // Fallback image
-    var bannerTitle = string.IsNullOrEmpty(ViewBag.BannerTitle) ? "No Title" : ViewBag.BannerTitle;
-    var bannerDescription = string.IsNullOrEmpty(ViewBag.BannerDescription) ? "No Description" : ViewBag.BannerDescription;
+    ViewData["Title"] = "Trang chủ - manage_coffee_shop_web";
+    var bannerImagePath = ViewBag.BannerImagePath ?? "/images/banners/coffee.jpg";
 }
 
-<!-- Banner Section -->
-<header class="banner" data-image="@bannerImagePath" style="min-height: 400px; position: relative;">
-    <div class="container" style="position: relative; z-index: 1; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center;">
-        <div class="banner-content" style="background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 5px; color: #fff;">
-            <h4 style="margin: 0; font-size: 2.5rem;">@bannerTitle</h4>
-            <p style="margin: 1rem 0; font-size: 1.5rem;">@bannerDescription</p>
+<header class="banner" style="margin: 0; padding: 0; height: 400px; position: relative; background-size: cover; background-position: center; overflow: hidden;">
+    <div class="container" style="position: relative; z-index: 1; height: 100%; text-align: center; color: white;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            @if (!string.IsNullOrEmpty(ViewBag.BannerTitle))
+            {
+                <h2>@ViewBag.BannerTitle</h2>
+            }
+            @if (!string.IsNullOrEmpty(ViewBag.BannerDescription))
+            {
+                <p>@ViewBag.BannerDescription</p>
+            }
         </div>
     </div>
+    <img src="@bannerImagePath" alt="Banner Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;" />
 </header>
 
-<!-- Home Section (#US001) -->
 <section class="home" id="home" style="min-height: 100vh; background: url('/images/home/home-img.jpg') no-repeat; background-size: cover; background-position: center; display: flex; align-items: center;">
     <div class="content">
-        <h3 style="color: white; font-weight: bold; font-size: 36px;">
-            FRESH COFFEE WITH CHICKEN CAFÉ
-        </h3>
-        <p style="color: #FFFFFF; font-size: 30px; font-weight: 500;">
-            "Hãy bắt đầu bằng một ngày mới trọn vẹn luôn bắt đầu bằng hương thơm nồng nàn của tách cà phê"
-        </p>
-        <a href="#products" class="btn">GYBAU NOW</a>
+        <h3 style="color: white; font-weight: bold; font-size: 36px;">CÀ PHÊ TƯƠI TẠI CHICKEN CAFÉ</h3>
+        <p style="color: #FFFFFF; font-size: 30px; font-weight: 500;">"Một ngày mới trọn vẹn luôn bắt đầu bằng hương thơm nồng nàn của tách cà phê"</p>
+        <a href="#products" class="btn">Mua Ngay</a>
     </div>
 </section>
 
-<!-- About Section -->
 <section class="about" id="about" style="margin-bottom: 0; padding-bottom: 20px;">
     <div class="container">
-        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
-            <span>VỀ </span> CHICKEN CAFÉ
-        </h1>
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px"><span>VỀ </span> CHICKEN CAFÉ</h1>
         <div class="row">
-            <div class="image col-md-6">
-                <img src="/images/home/about-img.png" alt="About Us" class="img-fluid">
-            </div>
+            <div class="image col-md-6"><img src="/images/home/about-img.png" alt="Về chúng tôi" class="img-fluid"></div>
             <div class="content col-md-6">
-                <h3>Điều gì làm cho cà phê của chúng tôi trở nên đặc biệt?</h3>
-                <p>
-                    Chúng tôi tin rằng một tách cà phê ngon không chỉ đơn giản là thức uống,
-                    mà còn là trải nghiệm. Từ những hạt cà phê nguyên chất được tuyển chọn kỹ lưỡng,
-                    rang xay chuẩn mực, cho đến cách pha chế tận tâm, tất cả đều nhằm mang đến cho bạn
-                    hương vị đậm đà và trọn vẹn nhất.
-                </p>
-                <p>
-                    Chicken Café không chỉ phục vụ cà phê, chúng tôi trao gửi năng lượng tích cực
-                    để khởi đầu ngày mới, sẻ chia khoảnh khắc và gắn kết mọi người.
-                    Mỗi tách cà phê là một câu chuyện, và chúng tôi rất vui được viết tiếp câu chuyện cùng bạn.
-                </p>
-                <a href="#" class="btn">Learn More</a>
+                <h3>Điều gì làm cho cà phê của chúng tôi đặc biệt?</h3>
+                <p>Chúng tôi tin rằng một tách cà phê ngon không chỉ là một thức uống, mà còn là một trải nghiệm. Từ những hạt cà phê nguyên chất được tuyển chọn kỹ lưỡng, rang xay chuẩn mực, cho đến cách pha chế tận tâm – tất cả đều nhằm mang đến cho bạn hương vị đậm đà và trọn vẹn nhất.</p>
+                <p>Chicken Café không chỉ phục vụ cà phê, mà còn mang đến năng lượng tích cực để khởi đầu ngày mới, sẻ chia khoảnh khắc và gắn kết mọi người. Mỗi tách cà phê là một câu chuyện, và chúng tôi rất hân hạnh được viết tiếp câu chuyện cùng bạn.</p>
+                <a href="#" class="btn">Xem Thêm</a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Products Section (#US002) -->
-<section class="products" id="products" style="margin-top: -250px; padding-top: 20px;">
+<section class="menu" id="menu" style="padding-top: 50px;">
     <div class="container">
-        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
-            <span>SẢN </span> PHẨM
-        </h1>
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px"><span>THỰC </span> ĐƠN</h1>
         <div class="row">
             <div class="col-md-3 filter-sidebar">
-                <h5>Filter by Category</h5>
-                <select class="form-select mb-3" id="categoryFilter">
-                    <option value="">All Categories</option>
+                <h5>Lọc theo danh mục</h5>
+                <select class="form-select mb-3" id="menuFilter" onchange="filterMenu(this.value)">
+                    <option value="">Tất cả danh mục</option>
                     @foreach (var category in ViewBag.Categories ?? Enumerable.Empty<dynamic>())
                     {
                         <option value="@category.Id">@category.Name</option>
                     }
                 </select>
             </div>
-            <div class="col-md-9">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    @foreach (var product in ViewBag.Products ?? Enumerable.Empty<dynamic>())
-                    {
-                        <div class="col">
-                            <div class="card product-card h-100">
-                                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" loading="lazy" />
-                                <div class="card-body">
-                                    <h5 class="card-title">@product.Name</h5>
-                                    <p class="card-text price">@product.Price</p>
-                                    <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-sm">View Details</a>
-                                    <a href="#" class="btn btn-sm btn-success add-to-cart mt-2" data-id="@product.Id">Add to Cart</a>
+            <div class="col-md-9 carousel-container">
+                <div class="carousel-navigation-top">
+                    <button class="carousel-btn menu-prev-btn" style="display: none;"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn menu-next-btn" style="display: none;"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="menu-list-wrapper">
+                    <div class="menu-list row" id="menu-list">
+                        @foreach (var product in ViewBag.Products ?? Enumerable.Empty<dynamic>())
+                        {
+                            <div class="col-md-3 menu-item" data-category-id="@(product.CategoryId ?? "")">
+                                <div class="card menu-card h-100">
+                                    <img src="@product.Image" class="card-img-top" alt="@product.Name" loading="lazy" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">@product.Name</h5>
+                                        <p class="card-text price">@string.Format("{0:N0}", product.Price) VNĐ</p>
+                                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-sm btn-primary">Xem chi tiết</a>
+                                        <button class="btn btn-sm btn-success add-to-cart mt-2" data-id="@product.Id">Thêm vào giỏ</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    }
+                        }
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Menu Section (#US006, #US007) -->
-<section class="menu" id="menu">
+<section class="products" id="products">
     <div class="container">
-        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
-            THỰC <span>ĐƠN</span>
-        </h1>
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">SẢN <span>PHẨM</span></h1>
         <div class="row">
             <div class="col-md-3 filter-sidebar">
-                <h5>Filter by Category</h5>
-                <select class="form-select mb-3" id="menuFilter">
-                    <option value="">All Categories</option>
+                <h5>Lọc theo danh mục</h5>
+                <select class="form-select mb-3" id="productFilter" onchange="filterProducts(this.value)">
+                    <option value="">Tất cả danh mục</option>
                     @foreach (var category in ViewBag.MenuCategories ?? Enumerable.Empty<dynamic>())
                     {
                         <option value="@category.Id">@category.Name</option>
                     }
                 </select>
             </div>
-            <div class="col-md-9">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    @foreach (var item in ViewBag.MenuItems ?? Enumerable.Empty<dynamic>())
-                    {
-                        <div class="col">
-                            <div class="card menu-item @(item.IsFeatured ? "border-primary" : "") h-100">
-                                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" loading="lazy" />
-                                <div class="card-body">
-                                    <h5 class="card-title">@item.Name @(item.IsFeatured ? "<span class='badge bg-success'>Featured</span>" : "")</h5>
-                                    <p class="card-text price">@item.Price</p>
-                                    <a href="@Url.Action("Details", "Menu", new { id = item.Id })" class="btn btn-sm">View Details</a>
+            <div class="col-md-9 carousel-container">
+                <div class="carousel-navigation-top">
+                    <button class="carousel-btn product-prev-btn" style="display: none;"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn product-next-btn" style="display: none;"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="product-list-wrapper">
+                    <div class="product-list row" id="product-list">
+                        @foreach (var item in ViewBag.MenuItems ?? Enumerable.Empty<dynamic>())
+                        {
+                            <div class="col-md-3 product-item" data-menu-category-id="@(item.CategoryId ?? "")">
+                                <div class="card product-item @(item.IsFeatured ? "border-primary" : "") h-100">
+                                    <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" loading="lazy" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Name @(item.IsFeatured ? "<span class='badge bg-success'>Nổi bật</span>" : "")</h5>
+                                        <p class="card-text price">@string.Format("{0:N0}", item.Price) VNĐ</p>
+                                        <a href="@Url.Action("Details", "Menu", new { id = item.Id })" class="btn btn-sm btn-primary">Xem chi tiết</a>
+                                        <button class="btn btn-sm btn-success add-to-cart mt-2" data-id="@item.Id">Thêm vào giỏ</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    }
+                        }
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Reviews Section -->
-<section class="reviews" id="reviews">
+<section class="review" id="review">
     <div class="container">
-        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
-            ĐÁNH GIÁ<span> KHÁCH HÀNG</span>
-        </h1>
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">TIN TỨC<span> </span></h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var review in ViewBag.Reviews ?? Enumerable.Empty<dynamic>())
             {
@@ -162,39 +151,35 @@
                 </div>
             }
         </div>
-    </div>
 </section>
 
-<!-- Contact Section (#US009, #US010) -->
 <section class="contact" id="contact">
     <div class="container">
-        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px">
-            <span>LIÊN</span> HỆ
-        </h1>
+        <h1 class="heading" style="border-bottom: 2px solid #4A2C2A; padding-bottom: 10px; padding-top: 10px"><span>LIÊN</span> HỆ</h1>
         <div class="row">
             <div class="col-md-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0987465358617!2d106.6372448509867!3d10.72686676604185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ff232d1450b%3A0x3659e3c94323e995!2sCoffee%20BOTT!5e0!3m2!1sen!2s!4v1753882951554!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p class="mt-3"><i class="fas fa-map-marker-alt"></i> 123 Coffee St, Ho Chi Minh City</p>
+                <p class="mt-3"><i class="fas fa-map-marker-alt"></i> 123 Coffee St, TP. Hồ Chí Minh</p>
                 <p><i class="fas fa-phone"></i> +84 123 456 789</p>
                 <p><i class="fas fa-envelope"></i> info@coffeehaven.com</p>
-                <p><i class="fas fa-clock"></i> Mon-Fri: 8 AM - 10 PM</p>
+                <p><i class="fas fa-clock"></i> Thứ 2 - Thứ 6: 8:00 - 22:00</p>
             </div>
             <div class="col-md-6">
                 <form id="contactForm" method="post" asp-action="Contact" asp-controller="Home" class="needs-validation" novalidate>
-                    <h3>Get in Touch</h3>
+                    <h3>Liên hệ với chúng tôi</h3>
                     <div class="mb-3">
-                        <input type="text" class="form-control" name="Name" placeholder="Your Name" required />
-                        <div class="invalid-feedback">Please enter your name.</div>
+                        <input type="text" class="form-control" name="Name" placeholder="Tên của bạn" required />
+                        <div class="invalid-feedback">Vui lòng nhập tên của bạn.</div>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" name="Email" placeholder="Your Email" required />
-                        <div class="invalid-feedback">Please enter a valid email.</div>
+                        <input type="email" class="form-control" name="Email" placeholder="Email của bạn" required />
+                        <div class="invalid-feedback">Vui lòng nhập email hợp lệ.</div>
                     </div>
                     <div class="mb-3">
-                        <input type="tel" class="form-control" name="Phone" placeholder="Your Phone" required />
-                        <div class="invalid-feedback">Please enter a valid phone number.</div>
+                        <input type="tel" class="form-control" name="Phone" placeholder="Số điện thoại của bạn" required />
+                        <div class="invalid-feedback">Vui lòng nhập số điện thoại hợp lệ.</div>
                     </div>
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" class="btn">Gửi đi</button>
                 </form>
                 <div id="contactMessage" class="mt-2 text-success" style="display:none;"></div>
             </div>
@@ -203,7 +188,7 @@
 </section>
 
 <script>
-    // Add to cart
+    // Thêm vào giỏ hàng với phản hồi chi tiết
     document.querySelectorAll('.add-to-cart').forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault();
@@ -211,44 +196,154 @@
             fetch('/Cart/Add', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ productId, quantity: 1 })
-            }).then(response => response.json()).then(data => {
-                alert(data.message || 'Added to cart!');
-                // Update cart UI (implement reload or live update)
-            }).catch(error => console.error('Error:', error));
+                body: JSON.stringify({ productId: productId, quantity: 1 })
+            })
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    alert(data.message || 'Đã thêm vào giỏ hàng thành công!');
+                } else {
+                    alert(data.message || 'Thất bại khi thêm vào giỏ hàng!');
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi thêm vào giỏ:', error);
+                alert('Có lỗi xảy ra. Vui lòng thử lại!');
+            });
         });
     });
 
-    // Contact form validation and submission
-    (function () {
+    // Xử lý form liên hệ
+    (function() {
         'use strict';
         const form = document.getElementById('contactForm');
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            if (form.checkValidity()) {
-                fetch(form.action, {
-                    method: 'POST',
-                    body: new FormData(form)
-                }).then(response => response.json()).then(data => {
-                    document.getElementById('contactMessage').textContent = data.message;
-                    document.getElementById('contactMessage').style.display = 'block';
-                    form.reset();
-                    form.classList.remove('was-validated');
-                }).catch(error => console.error('Error:', error));
-            } else {
-                form.classList.add('was-validated');
-            }
-        });
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                if (form.checkValidity()) {
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.json();
+                    })
+                    .then(data => {
+                        document.getElementById('contactMessage').textContent = data.message;
+                        document.getElementById('contactMessage').style.display = 'block';
+                        form.reset();
+                        form.classList.remove('was-validated');
+                    })
+                    .catch(error => {
+                        console.error('Lỗi khi gửi liên hệ:', error);
+                        document.getElementById('contactMessage').textContent = 'Gửi thất bại. Vui lòng thử lại!';
+                        document.getElementById('contactMessage').style.display = 'block';
+                    });
+                } else {
+                    form.classList.add('was-validated');
+                }
+            });
+        }
     })();
 
-    document.addEventListener("DOMContentLoaded", function () {
+    // JavaScript để lọc sản phẩm và thực đơn
+    document.addEventListener("DOMContentLoaded", function() {
         const banner = document.querySelector(".banner");
         const imagePath = banner.getAttribute("data-image");
         if (imagePath) {
             banner.style.backgroundImage = `url('${imagePath}')`;
-            console.log("Setting background image to: ", imagePath);
-        } else {
-            console.log("No image path found for banner.");
         }
+
+        // Cập nhật Carousel cho Thực đơn
+        const menuList = document.querySelector('.menu-list');
+        const menuItems = document.querySelectorAll('.menu .menu-item');
+        const menuPrevBtn = document.querySelector('.menu-prev-btn');
+        const menuNextBtn = document.querySelector('.menu-next-btn');
+        const totalMenuItems = menuItems.length;
+
+        const itemsPerPage = 4;
+        if (totalMenuItems > itemsPerPage) {
+            menuPrevBtn.style.display = 'flex';
+            menuNextBtn.style.display = 'flex';
+        }
+
+        let menuScrollPosition = 0;
+
+        menuNextBtn.addEventListener('click', () => {
+            const menuWidth = menuList.querySelector('.menu-item')?.offsetWidth || 0;
+            const scrollStep = menuWidth * itemsPerPage;
+            const maxScroll = menuList.scrollWidth - menuList.offsetWidth;
+
+            if (menuScrollPosition < maxScroll) {
+                menuScrollPosition += scrollStep;
+                if (menuScrollPosition > maxScroll) menuScrollPosition = maxScroll;
+                menuList.style.transform = `translateX(-${menuScrollPosition}px)`;
+            }
+        });
+
+        menuPrevBtn.addEventListener('click', () => {
+            const menuWidth = menuList.querySelector('.menu-item')?.offsetWidth || 0;
+            const scrollStep = menuWidth * itemsPerPage;
+
+            if (menuScrollPosition > 0) {
+                menuScrollPosition -= scrollStep;
+                if (menuScrollPosition < 0) menuScrollPosition = 0;
+                menuList.style.transform = `translateX(-${menuScrollPosition}px)`;
+            }
+        });
+
+        // Cập nhật Carousel cho Sản phẩm
+        const productList = document.querySelector('.product-list');
+        const productItems = document.querySelectorAll('.products .product-item');
+        const productPrevBtn = document.querySelector('.product-prev-btn');
+        const productNextBtn = document.querySelector('.product-next-btn');
+        const totalProducts = productItems.length;
+
+        if (totalProducts > itemsPerPage) {
+            productPrevBtn.style.display = 'flex';
+            productNextBtn.style.display = 'flex';
+        }
+
+        let productScrollPosition = 0;
+
+        productNextBtn.addEventListener('click', () => {
+            const productWidth = productList.querySelector('.product-item')?.offsetWidth || 0;
+            const scrollStep = productWidth * itemsPerPage;
+            const maxScroll = productList.scrollWidth - productList.offsetWidth;
+
+            if (productScrollPosition < maxScroll) {
+                productScrollPosition += scrollStep;
+                if (productScrollPosition > maxScroll) productScrollPosition = maxScroll;
+                productList.style.transform = `translateX(-${productScrollPosition}px)`;
+            }
+        });
+
+        productPrevBtn.addEventListener('click', () => {
+            const productWidth = productList.querySelector('.product-item')?.offsetWidth || 0;
+            const scrollStep = productWidth * itemsPerPage;
+
+            if (productScrollPosition > 0) {
+                productScrollPosition -= scrollStep;
+                if (productScrollPosition < 0) productScrollPosition = 0;
+                productList.style.transform = `translateX(-${productScrollPosition}px)`;
+            }
+        });
+
+        // Lọc thực đơn (gửi request đến server)
+        document.getElementById('menuFilter').addEventListener('change', (e) => {
+            const selectedMenuCategoryId = e.target.value;
+            window.location.href = '/Home/Index?menuCategoryId=' + (selectedMenuCategoryId || '');
+        });
+
+        // Lọc sản phẩm (gửi request đến server)
+        document.getElementById('productFilter').addEventListener('change', (e) => {
+            const selectedCategoryId = e.target.value;
+            window.location.href = '/Home/Index?categoryId=' + (selectedCategoryId || '');
+        });
     });
 </script>
+
