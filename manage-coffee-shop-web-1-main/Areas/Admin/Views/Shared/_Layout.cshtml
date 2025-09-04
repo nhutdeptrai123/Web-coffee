@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - quản lý web cửa hàng cà phê</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/manage_coffee_shop_web.styles.css" asp-append-version="true" />
+    <style>
+        /* Tùy chỉnh cho thanh điều hướng ngoài khung */
+        .offcanvas-header {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+        }
+
+        .offcanvas-body .nav-link {
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+            .offcanvas-body .nav-link:hover {
+                background-color: #e9ecef;
+            }
+
+        .navbar .container {
+            max-width: 1200px; /* Đặt chiều rộng tối đa */
+        }
+
+        .offcanvas {
+            width: 300px; /* Đặt độ rộng mong muốn, ví dụ 300px */
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span> Menu
+                </button>
+                <a class="navbar-brand" asp-area="Admin" asp-controller="AdminDashBoard" asp-action="Index">Bảng điều khiển Quản trị</a>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Điều hướng Quản trị</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Đóng"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Quay lại Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="AdminDashBoard" asp-action="Index">Tổng quan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Banner" asp-action="Index">Quản lý Banners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Quản lý Danh mục</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Coupon" asp-action="Index">Quản lý Coupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Quản lý Thực đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="User" asp-action="Index">Quản lý Người dùng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        &copy; 2025 - quản lý web cửa hàng cà phê
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

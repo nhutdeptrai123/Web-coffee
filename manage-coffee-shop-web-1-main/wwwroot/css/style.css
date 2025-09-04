@@ -1,0 +1,310 @@
+﻿/* Import font for consistent typography */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,400&display=swap');
+
+/* Root variables for theme consistency */
+:root {
+    --main-color: #8B4513; /* Warm coffee brown */
+    --text-color: #4A2C2A; /* Dark brown for text */
+    --bg-color: #F5E8C7; /* Light beige background */
+    --highlight-color: #D2B48C; /* Tan for highlights */
+    --border-color: 0.1rem solid rgba(139, 69, 19, 0.2); /* Subtle border */
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: var(--border-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.auth-section {
+    background: rgba(245, 232, 199, 0.9);
+    padding: 0.5rem 1rem;
+}
+
+.nav-section {
+    padding: 0.5rem 1rem;
+    background: var(--bg-color);
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+    .navbar a {
+        margin: 0 1rem;
+        font-size: 1.6rem;
+        color: var(--text-color);
+        text-decoration: none;
+        /* Customize spacing or color here if needed */
+    }
+
+/* Banner Styles */
+.banner {
+    /* Position and size for full-width banner */
+    width: 100%; /* Full width */
+    max-width: 1920px; /* Limit for large screens, customizable */
+    background-size: contain; /* Display full image without cropping */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent tiling */
+    min-height: 400px; /* Base height, adjust as needed */
+    margin: 0 auto; /* Center the banner */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    /* Removed animation: slide 15s infinite linear; */
+}
+
+/* Section Styles */
+.section {
+    /* Base style for all sections */
+    padding: 1rem 5%; /* Reduced padding to minimize spacing */
+    /* Adjust padding or add margin if needed */
+}
+
+/* Home Section Styles */
+.home {
+    /* Background and content positioning */
+    background: url('/images/home/home-img.jpg') no-repeat center center;
+    background-size: cover; /* Ảnh nền che kín toàn bộ, có thể bị crop */
+    min-height: 100vh; /* Chiều cao = toàn màn hình */
+    display: flex;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    padding: 2rem; /* Thêm padding tránh chữ dính sát viền */
+    color: #fff; /* Đặt màu chữ sáng cho nổi bật */
+    text-align: center; /* Canh chữ giữa */
+    position: relative;
+}
+
+    .home .content {
+        /* Content alignment */
+        text-align: center;
+        color: #fff; /* White text for contrast */
+        /* Adjust text alignment or color if needed */
+
+    }
+
+        .home .content h3 {
+            font-weight: bold;
+            font-size: 36px; /* Large heading */
+            /* Customize font-size or weight here if needed */
+        }
+
+        .home .content p {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center; /* canh giữa text */
+        }
+
+    .home .btn {
+        /* Button styling */
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: var(--main-color);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        /* Customize padding or color here if needed */
+    }
+
+/* About Section Styles */
+.about {
+    /* Container for about content */
+    /* No additional styling needed, relies on .section */
+}
+
+    .about .heading {
+        /* Heading with span */
+        text-align: center;
+        /* Border and padding handled in .heading class below */
+    }
+
+    .about .row {
+        /* Grid layout */
+        display: flex;
+        align-items: center;
+        /* Customize alignment if needed */
+    }
+
+    .about .image img {
+        /* Image styling */
+        width: 100%;
+        /* Customize width or height if needed */
+    }
+
+    .about .content h3 {
+        /* Subheading */
+        font-size: 1.8rem;
+        /* Adjust font-size if needed */
+    }
+
+    .about .content p {
+        /* Paragraph text */
+        margin: 1rem 0;
+        /* Customize margin if needed */
+    }
+
+/* Products and Menu Section Styles */
+.products, .menu {
+    /* Shared styling for products and menu */
+    /* No additional styling needed, relies on .section */
+    /* Customize section padding or margin if needed */
+}
+
+    .products .heading, .menu .heading {
+        /* Heading with span */
+        text-align: center;
+        /* Border and padding handled in .heading class below */
+        /* Adjust text alignment if needed */
+    }
+
+    .products .filter-sidebar, .menu .filter-sidebar {
+        /* Sidebar for filtering */
+        padding: 1rem;
+        /* Customize padding if needed */
+    }
+
+    .products .row-cols-md-3, .menu .row-cols-md-3 {
+        /* Grid for cards */
+        /* No additional styling needed, uses Bootstrap */
+        /* Adjust grid columns if needed */
+    }
+
+.product-card, .menu-item {
+    /* Card styling */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* Customize border or radius if needed */
+}
+
+    .product-card .card-img-top, .menu-item .card-img-top {
+        /* Default image dimensions */
+        width: 100%; /* Full width of card */
+        height: 200px; /* Fixed height for consistency */
+        object-fit: cover; /* Maintain aspect ratio, crop if necessary */
+        /* Customize width, height, or object-fit if needed */
+    }
+
+.price {
+    /* Price styling */
+    color: #e74c3c;
+    font-weight: bold;
+    /* Customize color or weight if needed */
+}
+
+/* Search Form Styles */
+.search-form {
+    /* Styling for the search form */
+    margin-bottom: 1rem; /* Space before product grid */
+    /* Customize margin if needed */
+}
+
+.search-form .form-label {
+    /* Label styling */
+    font-weight: bold;
+    /* Customize font-weight if needed */
+}
+
+.search-form .btn-primary {
+    /* Search button styling */
+    margin-top: 1.5rem; /* Align with input fields */
+    /* Customize margin or color if needed */
+}
+
+/* Reviews Section Styles */
+.reviews {
+    /* No additional styling needed, relies on .section */
+}
+
+    .reviews .heading {
+        /* Heading with span */
+        text-align: center;
+        /* Border and padding handled in .heading class below */
+    }
+
+/* Contact Section Styles */
+.contact {
+    /* No additional styling needed, relies on .section */
+}
+
+    .contact .heading {
+        /* Heading with span */
+        text-align: center;
+        /* Border and padding handled in .heading class below */
+    }
+
+    .contact iframe {
+        /* Map iframe */
+        width: 100%;
+        height: 300px;
+        border: 0;
+        /* Customize height if needed */
+    }
+
+/* Blogs Section Styles */
+.blogs {
+    /* No additional styling needed, relies on .section */
+}
+
+    .blogs .heading {
+        /* Heading with span */
+        text-align: center;
+        /* Border and padding handled in .heading class below */
+    }
+
+/* General Heading Styles */
+.heading {
+    /* Consistent heading style */
+    border-bottom: 2px solid #4A2C2A; /* Matches text-color */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* Customize border or padding if needed */
+}
+
+    .heading span {
+        /* Span within heading */
+        color: var(--main-color);
+        /* Customize color if needed */
+    }
+
+/* Button Styles */
+.btn {
+    /* General button styling */
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Customize padding or color here if needed */
+}
+
+/* Animation (Commented for customization) */
+/* @keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% 0;
+    }
+} */

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<manage_coffee_shop_web.Models.Banner>
+
+<h2>Quản lý Banner</h2>
+<a asp-area="Admin" asp-controller="Banner" asp-action="Create" class="btn btn-primary">+ Thêm Banner</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tiêu đề</th>
+            <th>Mô tả</th>
+            <th>Hình ảnh</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Select((value, i) => new { i, value }))
+        {
+            <tr>
+                <td>@(item.i + 1)</td>
+                <td>@item.value.Title</td>
+                <td>@item.value.Description</td>
+                <td>
+                    <img src="@item.value.Image" alt="Banner" width="120" />
+                </td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Banner" asp-action="Edit" asp-route-id="@item.value.Id" class="btn btn-warning btn-sm">Sửa</a>
+                    <form asp-area="Admin" asp-controller="Banner" asp-action="DeleteConfirmed" asp-route-id="@item.value.Id" method="post" style="display:inline">
+                        <button type="submit" class="btn btn-danger btn-sm"
+                                onclick="return confirm('Bạn có chắc muốn xóa banner này không?')">
+                            Xóa
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

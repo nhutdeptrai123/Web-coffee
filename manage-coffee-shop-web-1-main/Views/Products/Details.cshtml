@@ -1,0 +1,37 @@
+﻿@model manage_coffee_shop_web.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm - " + Model.Name;
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1 class="display-4">@Model.Name</h1>
+            <hr class="my-4">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="@Model.Image" alt="@Model.Name" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <div class="product-details">
+                <h2>Giá: @Model.Price.ToString("N0") VND</h2>
+                <p class="lead">@Model.Description</p>
+                <a href="javascript:history.back()" class="btn btn-lg btn-secondary mt-3">Quay lại</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-details h2 {
+        color: #4a2c2a;
+        margin-bottom: 15px;
+    }
+
+    .product-details p {
+        color: #333;
+    }
+</style>

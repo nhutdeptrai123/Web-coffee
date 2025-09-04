@@ -1,0 +1,35 @@
+﻿@model IEnumerable<manage_coffee_shop_web.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    int stt = 1;
+}
+
+<h2>Quản lý người dùng</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>Ngày tạo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@stt</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>@user.PhoneNumber</td>
+                <td>@user.Address</td>
+                <td>@user.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            stt++;
+        }
+    </tbody>
+</table>
