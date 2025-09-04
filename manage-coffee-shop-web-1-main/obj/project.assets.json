@@ -7846,11 +7846,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
       "projectName": "manage-coffee-shop-web",
       "projectPath": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
       "packagesPath": "C:\\Users\\Minh_Nhut\\.nuget\\packages\\",
       "outputPath": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\obj\\",
+=======
+      "projectUniqueName": "D:\\manage-coffee-shop-web-1-main (1)\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
+      "projectName": "manage-coffee-shop-web",
+      "projectPath": "D:\\manage-coffee-shop-web-1-main (1)\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
+      "packagesPath": "C:\\Users\\Minh_Nhut\\.nuget\\packages\\",
+      "outputPath": "D:\\manage-coffee-shop-web-1-main (1)\\manage-coffee-shop-web-1-main\\obj\\",
+>>>>>>> Tuan
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

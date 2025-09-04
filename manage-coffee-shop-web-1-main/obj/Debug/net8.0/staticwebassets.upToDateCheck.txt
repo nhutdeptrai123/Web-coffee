@@ -1,4 +1,5 @@
 wwwroot\css\site.css
+<<<<<<< HEAD
 wwwroot\favicon.ico
 wwwroot\images\banners\.png
 wwwroot\images\banners\5c123349-f4f7-4dbb-ba22-b3ba3aaf33ef.jpg
@@ -30,6 +31,41 @@ wwwroot\images\products\dua.jpg
 wwwroot\images\products\eb02d3e2-144c-4784-bcf0-145e7bf69d09.jpg
 wwwroot\images\products\sua.jpg
 wwwroot\images\products\trung.jpg
+=======
+wwwroot\css\style.css
+wwwroot\favicon.ico
+wwwroot\images\banners\1.png
+wwwroot\images\banners\2.png
+wwwroot\images\banners\3.png
+wwwroot\images\banners\a220087f-04da-4a72-80b4-01f763ac7907.png
+wwwroot\images\banners\a2cbbe83-96b1-499a-8212-ae8a0e9212e7.png
+wwwroot\images\banners\d18d736f-d486-44bd-b72b-0502d96db42d.png
+wwwroot\images\home\about-img.png
+wwwroot\images\home\home-img.jpg
+wwwroot\images\product-img\Americano.jpg
+wwwroot\images\product-img\cappuccino.jpg
+wwwroot\images\product-img\CoffeeDen.jpg
+wwwroot\images\product-img\CoffeeDừa.jpg
+wwwroot\images\product-img\CoffeeMuoi.jpg
+wwwroot\images\product-img\CoffeeSua.jpg
+wwwroot\images\product-img\CoffeeTrung.jpg
+wwwroot\images\product-img\Espresso.jpg
+wwwroot\images\product-img\Latte.jpg
+wwwroot\images\product-img\TraDao.jpg
+wwwroot\images\product-img\TraTac.jpg
+wwwroot\images\products\1f4f3b91-f257-4325-ba96-7d43f71a1a8c.jpg
+wwwroot\images\products\4f24d2fc-a17c-4d8c-b07c-4ce43b4b8eb1.jpg
+wwwroot\images\products\52ea196a-93d0-4290-8dfa-8e32078f0258.jpg
+wwwroot\images\products\544903f1-4802-4636-9c7a-613189d41dd9.jpg
+wwwroot\images\products\5af78795-94c7-4023-8b63-b8ebe6e7aac3.jpg
+wwwroot\images\products\5f884281-fdb0-4a18-a86f-e3b453a6af4a.jpg
+wwwroot\images\products\79ea780e-9222-4539-a728-ac4c0094b964.jpg
+wwwroot\images\products\87fd2156-943f-449d-bce4-a5ef54ff3976.jpg
+wwwroot\images\products\8c2de72c-c674-4b11-9615-9a03c56957fa.jpg
+wwwroot\images\products\eb02d3e2-144c-4784-bcf0-145e7bf69d09.jpg
+wwwroot\images\products\ec28d724-78cb-4569-bf0a-14afac351af5.jpg
+wwwroot\images\products\f6d1548b-f6aa-4c38-80ba-28cf62ce50cb.jpg
+>>>>>>> Tuan
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -88,4 +124,7 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+<<<<<<< HEAD
 wwwroot\css\style.css
+=======
+>>>>>>> Tuan

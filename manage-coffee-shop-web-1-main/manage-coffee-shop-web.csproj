@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Remove="Services\**" />
     <Content Remove="Services\**" />
     <EmbeddedResource Remove="Services\**" />
@@ -17,11 +18,19 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Views\Products\" />
+=======
+    <Folder Include="Areas\Admin\Data\" />
+>>>>>>> Tuan
     <Folder Include="Areas\Staff\Controllers\" />
     <Folder Include="Areas\Staff\Data\" />
     <Folder Include="Areas\Staff\Models\" />
     <Folder Include="Areas\Staff\Services\" />
     <Folder Include="Areas\Staff\Views\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\images\banners\" />
+>>>>>>> Tuan
     <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 

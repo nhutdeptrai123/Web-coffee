@@ -1,11 +1,22 @@
+<<<<<<< HEAD
 ﻿using System.Diagnostics;
+=======
+using System.Diagnostics;
+>>>>>>> Tuan
 using manage_coffee_shop_web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Data.SqlClient;
 
+<<<<<<< HEAD
 namespace manage_coffee_shop_web.Controllers {
     public class HomeController : Controller {
+=======
+namespace manage_coffee_shop_web.Controllers
+{
+    public class HomeController : Controller
+    {
+>>>>>>> Tuan
         private readonly ILogger<HomeController> _logger;
         private readonly IConfiguration _configuration;
 
@@ -15,6 +26,7 @@ namespace manage_coffee_shop_web.Controllers {
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
+<<<<<<< HEAD
         public IActionResult Index(int? categoryId = null, int? menuCategoryId = null)
         {
             var connectionString = _configuration.GetConnectionString("MyDb");
@@ -23,10 +35,21 @@ namespace manage_coffee_shop_web.Controllers {
             if (string.IsNullOrEmpty(connectionString))
             {
                 _logger.LogError("Connection string 'MyDb' is not configured at {Time}", DateTime.Now);
+=======
+        public IActionResult Index()
+        {
+            var connectionString = _configuration.GetConnectionString("MyDb");
+            _logger.LogInformation("Loaded connection string: {ConnectionString}", connectionString ?? "null");
+
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                _logger.LogError("Connection string 'MyDb' is not configured.");
+>>>>>>> Tuan
                 return View();
             }
 
             var banner = GetBannerFromDatabase();
+<<<<<<< HEAD
             var categories = GetCategoriesFromDatabase();
             var products = GetProductsFromDatabase(categoryId);
             var menuItems = GetMenuItemsFromDatabase(menuCategoryId);
@@ -38,20 +61,31 @@ namespace manage_coffee_shop_web.Controllers {
             ViewBag.Products = products;
             ViewBag.MenuCategories = categories; // Sử dụng chung danh mục
             ViewBag.MenuItems = menuItems;
+=======
+
+            // Retrieve default products (up to 6) with no filters
+            var products = GetProductsFromDatabase(null, null, null, null);
+            ViewBag.Products = products;
+>>>>>>> Tuan
 
             if (banner != null)
             {
                 ViewBag.BannerImagePath = banner.Image;
                 ViewBag.BannerTitle = banner.Title;
                 ViewBag.BannerDescription = banner.Description;
+<<<<<<< HEAD
                 _logger.LogInformation("Banner retrieved: Image={Image}, Title={Title}, Description={Description} at {Time}",
                     banner.Image, banner.Title, banner.Description, DateTime.Now);
+=======
+                _logger.LogInformation("Banner retrieved: Image={Image}, Title={Title}, Description={Description}", banner.Image, banner.Title, banner.Description);
+>>>>>>> Tuan
             }
             else
             {
                 ViewBag.BannerImagePath = null;
                 ViewBag.BannerTitle = "";
                 ViewBag.BannerDescription = "";
+<<<<<<< HEAD
                 _logger.LogWarning("No banner data retrieved from database at {Time}", DateTime.Now);
             }
 
@@ -59,6 +93,14 @@ namespace manage_coffee_shop_web.Controllers {
         }
 
         private List<Product> GetProductsFromDatabase(int? categoryId = null)
+=======
+                _logger.LogWarning("No banner data retrieved from database.");
+            }
+            return View();
+        }
+
+        private List<Product> GetProductsFromDatabase(int? categoryId, string searchTerm, decimal? minPrice, decimal? maxPrice)
+>>>>>>> Tuan
         {
             var products = new List<Product>();
             try
@@ -66,6 +108,7 @@ namespace manage_coffee_shop_web.Controllers {
                 using (var connection = new SqlConnection(_configuration.GetConnectionString("MyDb")))
                 {
                     connection.Open();
+<<<<<<< HEAD
                     var query = @"
                         SELECT Id, Name, Description, Price, Image, CategoryId, ViewCount, CreatedDate 
                         FROM Products";
@@ -80,19 +123,57 @@ namespace manage_coffee_shop_web.Controllers {
                             command.Parameters.AddWithValue("@CategoryId", categoryId.Value);
                             _logger.LogInformation("Filtering products with CategoryId = {CategoryId} at {Time}", categoryId.Value, DateTime.Now);
                         }
+=======
+                    var query = "SELECT TOP 6 Id, Name, Description, Price, Image FROM Products WHERE 1=1";
+                    var parameters = new List<SqlParameter>();
+
+                    if (categoryId.HasValue)
+                    {
+                        query += " AND CategoryId = @CategoryId";
+                        parameters.Add(new SqlParameter("@CategoryId", categoryId.Value));
+                    }
+                    if (!string.IsNullOrEmpty(searchTerm))
+                    {
+                        query += " AND Name LIKE @SearchTerm";
+                        parameters.Add(new SqlParameter("@SearchTerm", $"%{searchTerm}%"));
+                    }
+                    if (minPrice.HasValue)
+                    {
+                        query += " AND Price >= @MinPrice";
+                        parameters.Add(new SqlParameter("@MinPrice", minPrice.Value));
+                    }
+                    if (maxPrice.HasValue)
+                    {
+                        query += " AND Price <= @MaxPrice";
+                        parameters.Add(new SqlParameter("@MaxPrice", maxPrice.Value));
+                    }
+
+                    using (var command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddRange(parameters.ToArray());
+>>>>>>> Tuan
                         using (var reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
+<<<<<<< HEAD
                                 products.Add(new Product {
+=======
+                                products.Add(new Product
+                                {
+>>>>>>> Tuan
                                     Id = reader.GetInt32(0),
                                     Name = reader["Name"].ToString(),
                                     Description = reader["Description"].ToString(),
                                     Price = reader.GetDecimal(3),
+<<<<<<< HEAD
                                     Image = reader["Image"].ToString(),
                                     CategoryId = reader.GetInt32(5),
                                     ViewCount = reader.GetInt32(6),
                                     CreatedDate = reader.GetDateTime(7)
+=======
+                                    Image = reader["Image"].ToString()
+>>>>>>> Tuan
                                 });
                             }
                         }
@@ -101,11 +182,16 @@ namespace manage_coffee_shop_web.Controllers {
             }
             catch (Exception ex)
             {
+<<<<<<< HEAD
                 _logger.LogError(ex, "Error retrieving products from database at {Time}", DateTime.Now);
+=======
+                _logger.LogError(ex, "Error retrieving products from database");
+>>>>>>> Tuan
             }
             return products;
         }
 
+<<<<<<< HEAD
         private List<Category> GetCategoriesFromDatabase()
         {
             var categories = new List<Category>();
@@ -183,6 +269,8 @@ namespace manage_coffee_shop_web.Controllers {
             return menuItems;
         }
 
+=======
+>>>>>>> Tuan
         public IActionResult Privacy()
         {
             return View();
@@ -201,7 +289,11 @@ namespace manage_coffee_shop_web.Controllers {
                 var connectionString = _configuration.GetConnectionString("MyDb");
                 if (string.IsNullOrEmpty(connectionString))
                 {
+<<<<<<< HEAD
                     _logger.LogError("Connection string is null or empty in GetBannerFromDatabase at {Time}", DateTime.Now);
+=======
+                    _logger.LogError("Connection string is null or empty in GetBannerFromDatabase.");
+>>>>>>> Tuan
                     return null;
                 }
 
@@ -215,7 +307,12 @@ namespace manage_coffee_shop_web.Controllers {
                         {
                             if (reader.Read())
                             {
+<<<<<<< HEAD
                                 return new Banner {
+=======
+                                return new Banner
+                                {
+>>>>>>> Tuan
                                     Id = reader.GetInt32(0),
                                     Title = reader["Title"].ToString(),
                                     Description = reader["Description"].ToString(),
@@ -228,7 +325,11 @@ namespace manage_coffee_shop_web.Controllers {
             }
             catch (Exception ex)
             {
+<<<<<<< HEAD
                 _logger.LogError(ex, "Error retrieving banner from database at {Time}", DateTime.Now);
+=======
+                _logger.LogError(ex, "Error retrieving banner from database");
+>>>>>>> Tuan
             }
             return null;
         }

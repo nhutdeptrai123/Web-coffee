@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "f5zFhnNLtfA=",
   "success": true,
   "projectFilePath": "E:\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
+=======
+  "dgSpecHash": "dqjPavgVR7w=",
+  "success": true,
+  "projectFilePath": "D:\\manage-coffee-shop-web-1-main (1)\\manage-coffee-shop-web-1-main\\manage-coffee-shop-web.csproj",
+>>>>>>> Tuan
   "expectedPackageFiles": [
     "C:\\Users\\Minh_Nhut\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Minh_Nhut\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

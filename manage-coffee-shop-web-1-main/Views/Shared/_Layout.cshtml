@@ -31,6 +31,7 @@
                     <a href="#about">về CHICKEN CAFE</a>
                     <a href="#menu">Thực đơn</a>
                     <a href="#products">Sản phẩm</a>
+<<<<<<< HEAD
                     <a href="#review">Tin tức</a>
                     <a href="#contact">Liên hệ</a>
                     @* Thêm liên kết dành cho Admin *@
@@ -39,6 +40,17 @@
                         <a asp-area="Admin" asp-controller="AdminDashBoard" asp-action="Index">Bảng điều khiển Admin</a>
                     }
                  
+=======
+                    <a href="#review">Đánh giá</a>
+                    <a href="#contact">Liên hệ</a>
+                    <a href="#blogs">blogs</a>
+                    @* Thêm liên kết dành cho Admin *@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-area="Admin" asp-controller="AdminDashBoard" asp-action="Index">Admin</a>
+                    }
+
+>>>>>>> Tuan
                 </nav>
             </div>
         </div>

@@ -19,7 +19,10 @@ namespace manage_coffee_shop_web.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Product> Products { get; set; }
+<<<<<<< HEAD
          
+=======
+>>>>>>> Tuan
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

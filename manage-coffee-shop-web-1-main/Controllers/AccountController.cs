@@ -3,8 +3,15 @@ using manage_coffee_shop_web.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
+<<<<<<< HEAD
 namespace manage_coffee_shop_web.Controllers {
     public class AccountController : Controller {
+=======
+namespace manage_coffee_shop_web.Controllers
+{
+    public class AccountController : Controller
+    {
+>>>>>>> Tuan
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -27,6 +34,7 @@ namespace manage_coffee_shop_web.Controllers {
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
+<<<<<<< HEAD
             // Thêm kiểm tra validation để xử lý lỗi khi form trống
             if (!ModelState.IsValid)
             {
@@ -35,6 +43,10 @@ namespace manage_coffee_shop_web.Controllers {
             }
 
             var user = new ApplicationUser {
+=======
+            var user = new ApplicationUser
+            {
+>>>>>>> Tuan
                 UserName = model.Email,
                 Email = model.Email,
                 Name = model.Name,
@@ -45,11 +57,17 @@ namespace manage_coffee_shop_web.Controllers {
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
+<<<<<<< HEAD
                 // Kiểm tra và tạo role "User" chỉ khi nó chưa tồn tại
                 if (!await _roleManager.RoleExistsAsync("User"))
                 {
                     await _roleManager.CreateAsync(new IdentityRole("User"));
                 }
+=======
+                // Mặc định role = User
+                if (!await _roleManager.RoleExistsAsync("User"))
+                    await _roleManager.CreateAsync(new IdentityRole("User"));
+>>>>>>> Tuan
 
                 await _userManager.AddToRoleAsync(user, "User");
 
@@ -58,10 +76,14 @@ namespace manage_coffee_shop_web.Controllers {
             }
 
             foreach (var error in result.Errors)
+<<<<<<< HEAD
             {
                 ModelState.AddModelError("", error.Description);
             }
 
+=======
+                ModelState.AddModelError("", error.Description);
+>>>>>>> Tuan
             return View(model);
         }
 
@@ -70,10 +92,15 @@ namespace manage_coffee_shop_web.Controllers {
         public IActionResult Login() => View();
 
         // POST: /Account/Login
+<<<<<<< HEAD
+=======
+        // POST: /Account/Login
+>>>>>>> Tuan
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
+<<<<<<< HEAD
             // Thêm kiểm tra validation trước khi xử lý đăng nhập
             if (!ModelState.IsValid)
             {
@@ -81,6 +108,8 @@ namespace manage_coffee_shop_web.Controllers {
                 return View(model);
             }
 
+=======
+>>>>>>> Tuan
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user != null)
             {
@@ -98,7 +127,10 @@ namespace manage_coffee_shop_web.Controllers {
                     }
                 }
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Tuan
             ModelState.AddModelError("", "Sai tài khoản hoặc mật khẩu");
             return View(model);
         }
@@ -111,4 +143,8 @@ namespace manage_coffee_shop_web.Controllers {
             return RedirectToAction("Index", "Home");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Tuan
